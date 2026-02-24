@@ -4,8 +4,8 @@
 	shallow = true
 [submodule "project/reference"]
 	path = project/reference
-	url = https://git.trustedfirmware.org/hafnium/project/reference
-	shallow = true
+	url = https://github.com/OpenDevicePartnership/odp-hafnium-project.git
+	branch = odp/hafnium-project
 [submodule "third_party/dtc"]
 	path = third_party/dtc
 	url = https://git.trustedfirmware.org/hafnium/third_party/dtc
