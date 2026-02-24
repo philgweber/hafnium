@@ -48,7 +48,7 @@ declare_args() {
   plat_max_vms = 0
 
   # The maximum number of UUIDs allowed per partition, in the partition manifest
-  plat_partition_max_uuids = 4
+  plat_partition_max_uuids = 16
 
   # The maximum number of memory regions allowed per partition, in the partition manifest
   plat_partition_max_memory_regions = 8

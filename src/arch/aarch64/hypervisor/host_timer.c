@@ -15,6 +15,10 @@
 #include "msr.h"
 #include "sysregs.h"
 
+// QEMU cortex-a57 does not support S-EL2 timers, so force to use non-secure times for now
+#undef SECURE_WORLD
+#define SECURE_WORLD 0
+
 /**
  * Disable EL2/S-EL2 physical timer.
  */
